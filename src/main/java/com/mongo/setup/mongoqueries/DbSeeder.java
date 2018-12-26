@@ -3,7 +3,7 @@ package com.mongo.setup.mongoqueries;
 import com.mongo.setup.mongoqueries.model.Address;
 import com.mongo.setup.mongoqueries.model.Hotel;
 import com.mongo.setup.mongoqueries.model.Review;
-import com.mongo.setup.mongoqueries.service.HotelRepository;
+import com.mongo.setup.mongoqueries.dao.HotelRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

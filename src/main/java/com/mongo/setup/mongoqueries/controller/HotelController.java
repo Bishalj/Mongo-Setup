@@ -1,7 +1,7 @@
 package com.mongo.setup.mongoqueries.controller;
 
 import com.mongo.setup.mongoqueries.model.Hotel;
-import com.mongo.setup.mongoqueries.service.HotelRepository;
+import com.mongo.setup.mongoqueries.dao.HotelRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

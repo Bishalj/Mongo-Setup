@@ -1,4 +1,4 @@
-package com.mongo.setup.mongoqueries.service;
+package com.mongo.setup.mongoqueries.dao;
 
 import com.mongo.setup.mongoqueries.model.Hotel;
 import org.springframework.data.mongodb.repository.MongoRepository;
