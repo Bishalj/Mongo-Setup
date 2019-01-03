@@ -9,6 +9,9 @@ public class Address {
         this.country = country;
     }
 
+    public Address() {
+    }
+
     public String getCity() {
         return city;
     }

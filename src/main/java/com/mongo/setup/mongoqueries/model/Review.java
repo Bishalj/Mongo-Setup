@@ -11,6 +11,9 @@ public class Review {
         this.approved = approved;
     }
 
+    public Review() {
+    }
+
     public String getUserName() {
         return userName;
     }

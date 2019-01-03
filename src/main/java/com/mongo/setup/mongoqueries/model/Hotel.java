@@ -19,6 +19,9 @@ public class Hotel {
     private Address address;
     private List<Review> reviews;
 
+    public Hotel() {
+    }
+
     public Hotel(String name, Integer pricePerNight, Address address, List<Review> reviews) {
         this.name = name;
         this.pricePerNight = pricePerNight;

@@ -3,7 +3,8 @@ package com.mongo.setup.mongoqueries;
 import com.mongo.setup.mongoqueries.model.Address;
 import com.mongo.setup.mongoqueries.model.Hotel;
 import com.mongo.setup.mongoqueries.model.Review;
-import com.mongo.setup.mongoqueries.dao.HotelRepository;
+import com.mongo.setup.mongoqueries.dao.HotelRepositoryDao;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -15,9 +16,10 @@ import java.util.List;
 @Component
 public class DbSeeder  implements CommandLineRunner {
 
-    private HotelRepository hotelRepository;
+    @Autowired
+    private HotelRepositoryDao hotelRepository;
 
-    public DbSeeder(HotelRepository hotelRepository) {
+    public DbSeeder(HotelRepositoryDao hotelRepository) {
         this.hotelRepository = hotelRepository;
     }
 
